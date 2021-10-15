@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">שומר ערכים</string>
+    <string name="pleas_enter_your_name">בבקשה הכנס את שמך</string>
+    <string name="pleas_enter_your_age">בבקשה הכנס את גלך</string>
+    <string name="reminded_me_for_the_week">הזכר לי בשבוע הקרוב</string>
+    <string name="load">שחזר</string>
+    <string name="save">שמור</string>
+    <string name="enter_details_correct">הכנס בבקשה פרטים מתאימים</string>
+    <string name="thanks_we_will_get_back">Thanks😁 we will get back to you next week</string>
+
+</resources>

@@ -28,5 +28,39 @@
         android:layout_marginTop="20dp"
         tools:ignore="MissingConstraints" />
 
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reminded_me_for_the_week"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/tetAge"
+        app:layout_constraintTop_toBottomOf="@+id/tetAge" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="btnLoad,btnSave"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/tetAge"
+        app:layout_constraintStart_toStartOf="@+id/tetAge"
+        app:layout_constraintTop_toBottomOf="@+id/cb"
+    />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/load"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/save"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

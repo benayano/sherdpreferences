@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="pleas_enter_your_age">pleas enter your age</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
 </resources>
