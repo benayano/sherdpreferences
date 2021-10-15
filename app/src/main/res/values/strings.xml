@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shared preferences</string>
+    <string name="pleas_enter_your_name">pleas enter your name</string>
+    <string name="pleas_enter_your_age">pleas enter your age</string>
+</resources>
